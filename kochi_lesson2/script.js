@@ -323,14 +323,3 @@ window.addEventListener('load', () => {
         sessionStorage.removeItem('scrollPosition');
     }
 });
-
-// ダークモード切り替え（将来的な拡張用）
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
-}
-
-// ダークモードの初期化
-if (localStorage.getItem('darkMode') === 'true') {
-    document.body.classList.add('dark-mode');
-}
