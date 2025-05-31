@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyApp - あなたの生活をちょっと便利に</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MyApp</h1>
+    <nav>
+      <a href="#features">特徴</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>あなたの毎日に、ちょっとした魔法を。</h2>
+    <p>MyApp はあなたの生活をスマートにする新しいアプリです。</p>
+    <button id="cta-button">詳細を見る</button>
+  </section>
+
+  <section id="features">
+    <h3>特徴</h3>
+    <ul>
+      <li>直感的な操作</li>
+      <li>すっきりしたデザイン</li>
+      <li>無料で始められる</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h3>お問い合わせ</h3>
+    <form id="contact-form">
+      <input type="text" placeholder="お名前" required />
+      <input type="email" placeholder="メールアドレス" required />
+      <textarea placeholder="お問い合わせ内容" required></textarea>
+      <button type="submit">送信</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyApp</p>
+  </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <p>MyAppは現在β版です。今すぐ登録して最新情報をゲット！</p>
+      <button id="close-modal">閉じる</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

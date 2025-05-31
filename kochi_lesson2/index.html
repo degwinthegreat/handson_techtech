@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>川井大輔 | Web Developer & Designer</title>
+    <meta name="description" content="高知在住のWebデベロッパー・デザイナー川井大輔のプロフィールページです。フロントエンド開発、UI/UXデザイン、プログラミング教育に取り組んでいます。">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- ナビゲーション -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Daisuke Kawai</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">
+                        <span class="greeting-text">こんにちは、</span>
+                        <div class="typing-container">
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </div>
+                    </div>
+                    <h1 class="hero-title">
+                        川井 大輔
+                        <span class="title-subtitle">Daisuke Kawai</span>
+                    </h1>
+                    <p class="hero-description">
+                        高知在住のWebデベロッパー・デザイナー<br>
+                        美しく機能的なデジタル体験を創造しています
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            作品を見る
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            お問い合わせ
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank" class="social-link">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="status-indicator">
+                                <span class="status-dot"></span>
+                                <span class="status-text">お仕事募集中</span>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>川井 大輔</h3>
+                            <p>Web Developer & Designer</p>
+                            <div class="location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>高知県、日本</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Aboutセクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">私について</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>こんにちは！</h3>
+                        <p>
+                            高知県在住のWebデベロッパー・デザイナーの川井大輔です。
+                            2018年からWeb開発の世界に足を踏み入れ、フロントエンド開発を中心に
+                            UI/UXデザイン、プログラミング教育に取り組んでいます。
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>フロントエンド開発</h4>
+                                <p>React、Vue.js、TypeScriptを使用したモダンなWebアプリケーション開発を得意としています。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>UI/UXデザイン</h4>
+                                <p>ユーザー体験を重視したデザインと、直感的で使いやすいインターフェースの設計を行います。</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>プログラミング教育</h4>
+                                <p>地域のプログラミングスクールで講師として、次世代のエンジニア育成に貢献しています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">年の経験</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">完了プロジェクト</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-label">指導した学生</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">技術スタック</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skillsセクション -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">技術スキル</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>フロントエンド</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Vue.js</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TypeScript</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>スタイリング</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS/SCSS</span>
+                                <span class="skill-level">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Tailwind CSS</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>バックエンド</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>デザイン・ツール</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Adobe XD</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experienceセクション -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">経歴</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 現在</div>
+                        <h3>フリーランス Web Developer</h3>
+                        <h4>フリーランス</h4>
+                        <p>
+                            企業のWebサイトやWebアプリケーションの開発を中心に活動。
+                            React、Vue.jsを使用したSPAの構築から、WordPress等のCMS開発まで幅広く対応。
+                        </p>
+                        <div class="timeline-tags">
+                            <span>React</span>
+                            <span>Vue.js</span>
+                            <span>TypeScript</span>
+                            <span>WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2023</div>
+                        <h3>フロントエンドエンジニア</h3>
+                        <h4>株式会社テックカンパニー</h4>
+                        <p>
+                            BtoB向けWebアプリケーションのフロントエンド開発を担当。
+                            UI/UXの改善提案から実装まで一貫して担当し、ユーザビリティの向上に貢献。
+                        </p>
+                        <div class="timeline-tags">
+                            <span>React</span>
+                            <span>Redux</span>
+                            <span>Material-UI</span>
+                            <span>Jest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <h3>Webデザイナー</h3>
+                        <h4>デザインスタジオ高知</h4>
+                        <p>
+                            地域企業のWebサイト制作を中心に、ブランディングからWebデザイン、
+                            コーディングまで幅広く担当。地域密着型のデザインワークを経験。
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>HTML/CSS</span>
+                            <span>jQuery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2019</div>
+                        <h3>プログラミング学習</h3>
+                        <h4>独学・オンライン学習</h4>
+                        <p>
+                            Web開発の基礎から応用まで独学で習得。
+                            プログラミングスクールでの集中学習も経験し、実践的なスキルを身につける。
+                        </p>
+                        <div class="timeline-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>基礎学習</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projectsセクション -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">主な作品</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ECサイト構築</h3>
+                        <p>React + TypeScript + Stripeを使用したモダンなECサイト。レスポンシブデザインとUXを重視した設計。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Stripe</span>
+                            <span>Styled Components</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>タスク管理アプリ</h3>
+                        <p>Vue.js + Vuetifyで構築したタスク管理アプリ。ドラッグ&ドロップ機能とリアルタイム同期を実装。</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Vuetify</span>
+                            <span>Firebase</span>
+                            <span>PWA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>データ可視化ダッシュボード</h3>
+                        <p>D3.jsとReactを組み合わせたインタラクティブなデータ可視化ダッシュボード。リアルタイムデータ表示。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ブラウザゲーム</h3>
+                        <p>HTML5 Canvas + JavaScriptで作成したパックマン風ゲーム。レトロな雰囲気と現代的なUIを融合。</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Canvas API</span>
+                            <span>CSS3</span>
+                            <span>Audio API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogセクション -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Blog</h2>
+                <p class="section-subtitle">最近の記事</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="blog-category">Frontend</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年3月15日</span>
+                            <span class="blog-reading-time">5分で読める</span>
+                        </div>
+                        <h3>React 18の新機能を実践で活用する方法</h3>
+                        <p>React 18で追加された新機能について、実際のプロジェクトでの活用例を交えて詳しく解説します。</p>
+                        <a href="#" class="blog-link">続きを読む <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="blog-category">Design</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年3月10日</span>
+                            <span class="blog-reading-time">7分で読める</span>
+                        </div>
+                        <h3>2024年のWebデザイントレンド予測</h3>
+                        <p>今年注目すべきWebデザインのトレンドと、それらを実装する際のポイントについて解説します。</p>
+                        <a href="#" class="blog-link">続きを読む <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="blog-category">Education</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年3月5日</span>
+                            <span class="blog-reading-time">10分で読める</span>
+                        </div>
+                        <h3>プログラミング初心者が最初に学ぶべきこと</h3>
+                        <p>これからプログラミングを始める方へのアドバイスと、効率的な学習方法を紹介します。</p>
+                        <a href="#" class="blog-link">続きを読む <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-more">
+                <a href="#" class="btn btn-outline">すべての記事を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Daisuke Kawai</h3>
+                    <p>高知在住のWebデベロッパー・デザイナー</p>
+                    <div class="footer-social">
+                        <a href="https://github.com" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#">Web開発</a></li>
+                                <li><a href="#">UI/UXデザイン</a></li>
+                                <li><a href="#">コンサルティング</a></li>
+                                <li><a href="#">プログラミング指導</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Daisuke Kawai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

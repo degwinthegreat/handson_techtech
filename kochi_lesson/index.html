@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高知プログラミングスクール | 未経験から3ヶ月でプロエンジニアに</title>
+    <meta name="description" content="高知で最も実践的なプログラミングスクール。未経験から3ヶ月でWeb開発のプロエンジニアになれます。現役エンジニアによる少人数指導で確実にスキルアップ。">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>高知Code Academy</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">特徴</a></li>
+                    <li><a href="#courses">コース</a></li>
+                    <li><a href="#instructors">講師陣</a></li>
+                    <li><a href="#testimonials">受講生の声</a></li>
+                    <li><a href="#contact" class="cta-btn">無料相談</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    未経験から<span class="highlight">3ヶ月</span>で<br>
+                    プロエンジニアに
+                </h1>
+                <p class="hero-subtitle">
+                    高知で最も実践的なプログラミングスクール<br>
+                    現役エンジニアが直接指導する少人数制クラス
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">就職成功率</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3ヶ月</span>
+                        <span class="stat-label">最短期間</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500万円</span>
+                        <span class="stat-label">平均年収UP</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-calendar"></i>
+                        無料カウンセリング予約
+                    </a>
+                    <a href="#courses" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        コース詳細を見る
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-line"><span class="keyword">function</span> <span class="function">createFuture</span>() {</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="keyword">const</span> <span class="variable">skills</span> = <span class="string">'programming'</span>;</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="keyword">const</span> <span class="variable">passion</span> = <span class="string">'learning'</span>;</div>
+                    <div class="code-line">&nbsp;&nbsp;<span class="keyword">return</span> <span class="variable">skills</span> + <span class="variable">passion</span>;</div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 特徴セクション -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">選ばれる理由</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>少人数制指導</h3>
+                    <p>最大5名までの少人数クラスで、一人ひとりに合わせた丁寧な指導を行います。質問しやすい環境で確実にスキルアップできます。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>実践的なカリキュラム</h3>
+                    <p>現場で本当に使われる技術を中心に学習。実際のWebサービス開発を通じて、即戦力となるスキルを身につけます。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>柔軟な学習時間</h3>
+                    <p>平日夜間・土日開講で働きながらでも学習可能。オンライン併用で自分のペースで学習を進められます。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>就職・転職サポート</h3>
+                    <p>専任キャリアアドバイザーが履歴書作成から面接対策まで徹底サポート。地元企業との強いネットワークで転職を支援します。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コースセクション -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">コース紹介</h2>
+            <div class="courses-grid">
+                <div class="course-card featured">
+                    <div class="course-badge">人気No.1</div>
+                    <h3>Web開発コース</h3>
+                    <div class="course-duration">3ヶ月間</div>
+                    <div class="course-price">
+                        <span class="price">¥298,000</span>
+                        <span class="price-note">分割払い可</span>
+                    </div>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i>HTML/CSS/JavaScript</li>
+                        <li><i class="fas fa-check"></i>React.js</li>
+                        <li><i class="fas fa-check"></i>Node.js/Express</li>
+                        <li><i class="fas fa-check"></i>データベース設計</li>
+                        <li><i class="fas fa-check"></i>ポートフォリオ作成</li>
+                        <li><i class="fas fa-check"></i>就職サポート</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">詳細を見る</a>
+                </div>
+                <div class="course-card">
+                    <h3>Python AIコース</h3>
+                    <div class="course-duration">4ヶ月間</div>
+                    <div class="course-price">
+                        <span class="price">¥398,000</span>
+                        <span class="price-note">分割払い可</span>
+                    </div>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i>Python基礎</li>
+                        <li><i class="fas fa-check"></i>機械学習</li>
+                        <li><i class="fas fa-check"></i>深層学習</li>
+                        <li><i class="fas fa-check"></i>データ分析</li>
+                        <li><i class="fas fa-check"></i>AI開発プロジェクト</li>
+                        <li><i class="fas fa-check"></i>就職サポート</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">詳細を見る</a>
+                </div>
+                <div class="course-card">
+                    <h3>スマホアプリコース</h3>
+                    <div class="course-duration">3ヶ月間</div>
+                    <div class="course-price">
+                        <span class="price">¥328,000</span>
+                        <span class="price-note">分割払い可</span>
+                    </div>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i>Flutter/Dart</li>
+                        <li><i class="fas fa-check"></i>iOS/Android開発</li>
+                        <li><i class="fas fa-check"></i>UI/UXデザイン</li>
+                        <li><i class="fas fa-check"></i>API連携</li>
+                        <li><i class="fas fa-check"></i>アプリ公開</li>
+                        <li><i class="fas fa-check"></i>就職サポート</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">詳細を見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 講師陣セクション -->
+    <section id="instructors" class="instructors">
+        <div class="container">
+            <h2 class="section-title">現役エンジニア講師陣</h2>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>田中 太郎</h3>
+                    <p class="instructor-title">フルスタックエンジニア</p>
+                    <p class="instructor-experience">現役10年 | 元Google勤務</p>
+                    <div class="instructor-skills">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>山田 花子</h3>
+                    <p class="instructor-title">AIエンジニア</p>
+                    <p class="instructor-experience">現役8年 | 元Microsoft勤務</p>
+                    <div class="instructor-skills">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>機械学習</span>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <h3>佐藤 次郎</h3>
+                    <p class="instructor-title">モバイルアプリエンジニア</p>
+                    <p class="instructor-experience">現役7年 | 元LINE勤務</p>
+                    <div class="instructor-skills">
+                        <span>Flutter</span>
+                        <span>React Native</span>
+                        <span>Swift</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 受講生の声セクション -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">受講生の声</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <p>"未経験からスタートして、3ヶ月でWeb開発会社に転職できました！講師の方々が親身になって指導してくださり、分からないことも気軽に質問できる環境が最高でした。"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>高橋 美咲さん（28歳）</h4>
+                            <p>事務職 → Webエンジニア</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"少人数制なので一人ひとりに合わせた指導を受けることができました。実際の開発現場で使われる技術を学べるので、即戦力として働けています。年収も前職の1.5倍になりました！"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>中村 健太さん（32歳）</h4>
+                            <p>営業職 → フルスタックエンジニア</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"働きながらでも学習できるスケジュールが組まれていて助かりました。オンラインと対面を使い分けられるので、効率よく学習を進めることができました。転職サポートも手厚く、安心でした。"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>松本 裕子さん（35歳）</h4>
+                            <p>接客業 → AIエンジニア</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>無料カウンセリング実施中</h2>
+                    <p class="contact-subtitle">
+                        あなたの目標や現在のスキルレベルに合わせて、<br>
+                        最適な学習プランをご提案します。
+                    </p>
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <i class="fas fa-clock"></i>
+                            <span>所要時間：約60分</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-video"></i>
+                            <span>オンライン・対面選択可</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-gift"></i>
+                            <span>完全無料・勧誘なし</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">お名前 *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">電話番号</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="course">希望コース</label>
+                        <select id="course" name="course">
+                            <option value="">選択してください</option>
+                            <option value="web">Web開発コース</option>
+                            <option value="ai">Python AIコース</option>
+                            <option value="mobile">スマホアプリコース</option>
+                            <option value="consultation">まずは相談したい</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">ご質問・ご要望</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i>
+                        無料カウンセリングを予約する
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-code"></i>
+                        <span>高知Code Academy</span>
+                    </div>
+                    <p>高知で最も実践的なプログラミングスクール。未経験から3ヶ月でプロエンジニアを目指せます。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>コース</h3>
+                    <ul>
+                        <li><a href="#courses">Web開発コース</a></li>
+                        <li><a href="#courses">Python AIコース</a></li>
+                        <li><a href="#courses">スマホアプリコース</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>サポート</h3>
+                    <ul>
+                        <li><a href="#contact">無料カウンセリング</a></li>
+                        <li><a href="#">よくある質問</a></li>
+                        <li><a href="#">就職サポート</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>お問い合わせ</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>高知県高知市本町1-2-3<br>高知ビル5F</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>088-123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@kochi-code.jp</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 高知Code Academy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

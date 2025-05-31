@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パックマンゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>パックマンゲーム</h1>
+            <div class="score-board">
+                <span>スコア: <span id="score">0</span></span>
+                <span>ライフ: <span id="lives">3</span></span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="controls">
+            <p>操作方法: 矢印キーまたはWASDキーで移動</p>
+            <button id="startBtn">ゲーム開始</button>
+            <button id="pauseBtn">一時停止</button>
+        </div>
+        <div id="gameOverScreen" class="game-over" style="display: none;">
+            <h2>ゲームオーバー</h2>
+            <p>最終スコア: <span id="finalScore">0</span></p>
+            <button id="restartBtn">もう一度プレイ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
