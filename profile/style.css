@@ -366,7 +366,8 @@ section {
     height: 100%;
     background: #667eea;
     border-radius: inherit;
-    transition: width 1s ease;
+    transition: width 1.5s ease-out;
+    width: 0%;
 }
 
 /* フッター */
