@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
     skillBars.forEach((bar, index) => {
         const width = bar.parentElement.parentElement.querySelector('.skill-level').textContent;
         const percentage = parseInt(width);
-        
+
         // 初期状態は幅0
         bar.style.width = '0%';
-        
+
         // 少し遅延してからアニメーション開始（順番に表示）
         setTimeout(() => {
             bar.style.width = percentage + '%';
