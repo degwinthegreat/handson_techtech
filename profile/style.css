@@ -329,7 +329,27 @@ section {
     height: 100%;
     background: #667eea;
     border-radius: 4px;
-    width: 0%;
+}
+
+/* 各スキルレベルに応じた幅設定 */
+.skill-progress[data-width="90"] {
+    width: 90%;
+}
+
+.skill-progress[data-width="85"] {
+    width: 85%;
+}
+
+.skill-progress[data-width="95"] {
+    width: 95%;
+}
+
+.skill-progress[data-width="75"] {
+    width: 75%;
+}
+
+.skill-progress[data-width="80"] {
+    width: 80%;
 }
 
 /* フッター */
