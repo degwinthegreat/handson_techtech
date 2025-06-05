@@ -2,16 +2,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif;
     color: #333;
 }
 
@@ -27,9 +21,7 @@ body {
     top: 0;
     width: 100%;
     background: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    padding: 1rem 0;
+    padding: 20px 0;
 }
 
 .nav-container {
@@ -37,12 +29,10 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav-logo .logo-text {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: bold;
     color: #667eea;
 }
@@ -50,25 +40,23 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
-    align-items: center;
+    margin-left: auto;
+}
+
+.nav-menu li {
+    margin-left: 30px;
 }
 
 .nav-menu a {
     text-decoration: none;
     color: #333;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav-menu a:hover {
-    color: #667eea;
+    font-weight: bold;
 }
 
 /* ヒーローセクション */
 .hero {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+    background: #667eea;
     color: white;
     display: flex;
     align-items: center;
@@ -76,65 +64,55 @@ body {
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.hero-text {
+    width: 50%;
+    padding-right: 40px;
 }
 
 .greeting {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    opacity: 0.9;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 25px;
 }
 
 .title-subtitle {
     display: block;
-    font-size: 1.5rem;
-    font-weight: normal;
-    opacity: 0.9;
-    margin-top: 0.5rem;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 .hero-description {
-    font-size: 1.2rem;
-    margin-bottom: 2.5rem;
-    opacity: 0.95;
-    line-height: 1.8;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
 .btn {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 15px;
 }
 
 .btn-primary {
     background: #ff6b6b;
     color: white;
-}
-
-.btn-primary:hover {
-    background: #ff5252;
 }
 
 .btn-outline {
@@ -143,35 +121,30 @@ body {
     border: 2px solid white;
 }
 
-.btn-outline:hover {
-    background: white;
-    color: #667eea;
-}
-
 .hero-image {
+    width: 50%;
     text-align: center;
 }
 
 .profile-image {
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 .image-placeholder {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ff6b6b, #ffd93d);
+    background: #ff6b6b;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    font-size: 5rem;
+    font-size: 80px;
     color: white;
 }
 
 .social-links {
     display: flex;
-    gap: 1rem;
     justify-content: center;
 }
 
@@ -179,23 +152,17 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #667eea;
     text-decoration: none;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.social-link:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
+    margin: 0 10px;
 }
 
 .social-link i {
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
 /* セクション共通 */
@@ -203,20 +170,26 @@ section {
     padding: 80px 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .section-header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 60px;
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
     color: #333;
 }
 
 .section-subtitle {
-    font-size: 1.1rem;
+    font-size: 18px;
     color: #666;
 }
 
@@ -226,32 +199,32 @@ section {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    align-items: start;
+    display: flex;
+}
+
+.about-text {
+    width: 70%;
+    padding-right: 60px;
 }
 
 .about-intro {
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
 .about-intro h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+    font-size: 30px;
+    margin-bottom: 15px;
     color: #333;
 }
 
 .about-intro p {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 18px;
     color: #666;
 }
 
 .detail-item {
     display: flex;
-    gap: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
 }
 
 .detail-icon {
@@ -260,40 +233,39 @@ section {
     border-radius: 50%;
     background: #667eea;
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
-    font-size: 1.5rem;
-    flex-shrink: 0;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+.detail-icon i {
+    margin: auto;
 }
 
 .detail-content h4 {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
+    font-size: 22px;
+    margin-bottom: 10px;
     color: #333;
 }
 
 .detail-content p {
     color: #666;
-    line-height: 1.7;
 }
 
 .about-stats {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    width: 30%;
 }
 
 .stat-card {
     background: white;
-    padding: 2rem;
+    padding: 30px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
 }
 
 .stat-number {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
     color: #667eea;
     display: block;
@@ -301,8 +273,8 @@ section {
 
 .stat-label {
     color: #666;
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
+    font-size: 14px;
+    margin-top: 8px;
 }
 
 /* Skillsセクション */
@@ -311,62 +283,52 @@ section {
 }
 
 .skills-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
+    display: flex;
+}
+
+.skill-category {
+    width: 33.33%;
+    margin-right: 50px;
 }
 
 .skill-category h3 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 30px;
     color: #333;
-    position: relative;
-    padding-bottom: 0.5rem;
-}
-
-.skill-category h3::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 50px;
-    height: 3px;
-    background: #667eea;
-    border-radius: 2px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #667eea;
 }
 
 .skill-item {
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 .skill-info {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .skill-name {
-    font-weight: 500;
+    font-weight: bold;
     color: #333;
 }
 
 .skill-level {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 14px;
+    margin-left: auto;
 }
 
 .skill-bar {
     height: 8px;
     background: #e5e7eb;
     border-radius: 4px;
-    overflow: hidden;
 }
 
 .skill-progress {
     height: 100%;
     background: #667eea;
-    border-radius: inherit;
-    transition: width 1.5s ease-out;
+    border-radius: 4px;
     width: 0%;
 }
 
